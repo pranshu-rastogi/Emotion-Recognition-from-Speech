@@ -16,3 +16,15 @@ This project addresses these limitations through:
 - **Hybrid modeling** to jointly learn local spectral and long-term temporal emotion cues  
 
 ---
+## 📘 Requirements
+In order to execute the **"NLP_project_output (2).ipynb"** in local machine:
+- Delete mount google drive cell
+- Download **"feature_scaler.pkl", "label_encoder.pkl", "emotion_recognition_model.h5"** onto your local machine
+- In "NLP_project_output (2).ipynb" Update these paths **MUST match the output paths from your local machine**
+-----------------------------------------------------------------------------
+|  DRIVE_PATH = "/content/drive/MyDrive/"                                   |
+|  MODEL_PATH = os.path.join(DRIVE_PATH, "emotion_recognition_model.h5")    |
+|  SCALER_PATH = os.path.join(DRIVE_PATH, "feature_scaler.pkl")             |
+|  ENCODER_PATH = os.path.join(DRIVE_PATH, "label_encoder.pkl")             | 
+-----------------------------------------------------------------------------
+- Run the notebook
